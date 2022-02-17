@@ -20,7 +20,7 @@
                                 <rect key="frame" x="20" y="200.5" width="374" height="495"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pct-YS-pOm">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="363" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -197,7 +197,7 @@
                                                     <color key="baseForegroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="Button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ydm-qs-haG"/>
+                                                    <action selector="Button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1q6-72-A3K"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7s-Of-gTF">
@@ -421,7 +421,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="DisplayLabel" destination="7jk-ZM-YEo" id="Dkl-eX-sds"/>
+                        <outlet property="DisplayLabel" destination="pct-YS-pOm" id="BVt-G1-AsV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
